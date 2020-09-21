@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0;
+	font-size: calc(0.75em + 1vmin);
+}
+
 ul {
   margin:0;
   list-style: none;
@@ -11,5 +16,9 @@ ul {
 
 mark {
   background: $main-color-light;
-  color: #fff;
+  // color: #666;
+}
+
+a, .btn:focus {
+	box-shadow: unset !important;
 }

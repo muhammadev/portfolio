@@ -7,12 +7,16 @@
           <h1>It's Muhammad Tarek</h1>
           <h5>A Curious Web Dev.</h5>
           <div class="wrapper">
-            <p><small>if you already know me, then:</small></p>
+            <p><small>You know me?</small></p>
             <router-link to="/contact" tag="button" class="btn btn-sm btn-special" title="lets make something great together!">Contact</router-link>
+          </div>
+          <div class="wrapper">
+            <p><small>You don't? See</small></p>
+            <router-link to="/who" tag="button" class="btn btn-sm btn-special">Who Am I</router-link>
           </div>
         </div>
       </div>
-      <div class="col-md">
+      <div class="col-md hello-img">
         <img src="../assets/hello.svg" alt="hello">
       </div>
     </div>
@@ -33,18 +37,25 @@ export default {
     .col-md {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
       img {
         position: relative;
         width: 80%;
+        left: 20%;
       }
     }
   }
 }
-@media screen and (max-width: 767px) {
-  img {
-    width: 100% !important;
-    float: unset !important;
+
+h5 {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  margin:0 !important;
+  p {
+    margin-right:10px;
+    margin-bottom:15px;
+    display: inline-block;
   }
 }
 </style>

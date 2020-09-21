@@ -1,12 +1,12 @@
 <template>
 	<div class="content">
     <div class="title">
-      <h1>How</h1>
+      <h1>How Do I Do Them?</h1>
     </div>
     <div class="body">
       <div class="wrapper">
         <p>
-          I build <router-link to="/what">What</router-link> I build using those skills, each when needed:
+          I build <router-link to="/what" tag="button" class="btn btn-sm btn-special">What</router-link> I build using those technologies and programming languages, each when needed:
         </p>
         <ul>
           <li>HTML5</li>
@@ -16,6 +16,8 @@
           <li>JS</li>
           <li>VueJS</li>
           <li>Vuex</li>
+          <li>Git/Github</li>
+          <li>Responsive Web Design</li>
         </ul>
       </div>
       <div class="wrapper">
@@ -27,6 +29,9 @@
           <li>mongoDB</li>
           <li>Pug/Jade</li>
         </ul>
+      </div>
+      <div class="wrapper">
+        <p>Now that you know me, I'll be happy if you <router-link to="contact" tag="button" class="btn btn-sm btn-special">Send</router-link> me your openion</p>
       </div>
     </div>
   </div>

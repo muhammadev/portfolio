@@ -3,7 +3,7 @@
 		<ul>
 			<a href="https://github.com/muhammadev" target="_blank"><li>Github</li></a>
 			<a href="https://linkedin.com/in/mohamed-tarek-b2420118b/" target="_blank"><li>Linkedin</li></a>
-			<a href="/myResume.pdf" download="muhammad's resume"><li>Download Resume</li></a>
+			<a href="https://codepen.io/Mohamed-tarek" target="_blank"><li>Codepen</li></a>
 		</ul>
 	  <div class="copyright">
 	    <p><small>&copy; 2020 Muhammad Tarek.</small></p>
@@ -22,12 +22,10 @@ ul {
 	display: inline-block;	
 }
 .copyright {
-	float: right;
 	p {
 		font-size: unset;
-		color: #aaa;
+		// color: #aaa;
 		position: relative;
-		bottom: -15px;
 		margin-bottom:0;
 	}
 }

@@ -1,6 +1,6 @@
 <template>
 	<div class="contact">
-		<h1>Get In Touch</h1>
+		<h2>Get In Touch</h2>
 		<form action="https://formspree.io/xwkrqzkq" method="POST">
 			<input name="name" type="text" placeholder="your name" required />
 			<input type="text" name="_replyto" placeholder="your email" required>
